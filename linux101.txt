@@ -1,0 +1,65 @@
+Commands
+
+built-ins - part of the shell. Things like pwd or cat. 'which' command will show these
+	ex: 'which pwd' returms /usr/bin/pwd. Built-ins can be prefixed with full path
+	/usr/bin/pwd
+
+keywords - used in a script. Commands like 'if'
+
+'type' command returns the type
+$type if
+if is a shell keyword
+
+$type pwd
+pwd is a shell builtin
+
+'type -t' returns shortened version
+$type -t if
+keyword
+
+$type -t pwd
+builtin
+
+'compgen' command lists all of the commands
+'compgen -c' lists them all
+'compgen -b' lists built-ins
+'compgen -k' lists keywords
+
+
+Redirection
+
+script.sh < data.in > results.out
+sends data.in to script.sh and send output to results.out
+
+file descriptor numbers
+0 - stdin
+1 - stdout
+2 - stderr
+
+send stderr from script.sh to err.msg
+script.sh 2> err.msg 
+
+combining input, output, and std err
+script.sh < data.in > results.out 2> err.msg
+
+combining input, output, stdout, and std err
+script.sh < data.in > results.out 2>&1
+	shorthand version
+script.sh < data.in &> results.out
+
+
+Running in background
+
+add '&' to any script
+ping 127.0.0.1 > ping.txt &
+
+'jobs' command will show jobs running in the background
+$jobs
+[1]+  Running                 ping 127.0.0.1 > ping.txt &
+
+'fg' command will bring the job back to the forground
+$fg 1
+ping 127.0.0.1 > ping.txt
+
+'ctrl-z' will pause a job once it's in the foreground
+'bg' will start it processing again in the background
