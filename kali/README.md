@@ -1,6 +1,6 @@
-=== Kali Setup ===
+## Kali Setup
 
-(becuase I always forget the partioning part)
+#### (becuase I always forget the partioning part)
 
   - Select "Manual" and click Continue
   - Select the drive you configured
@@ -18,6 +18,7 @@ Partitions
   * /tmp – for temporary files as a name suggests - 5GB
   * Give /swap 4GB or don't worry about it 
       * Have to enter /swap manually for the name
+      * NOT REALLY NEEDED
   * /var – holds content for various applications - 20GB
       * Or half of what is left
   * / (root) – OS partition - whatever is left
