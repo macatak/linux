@@ -1,6 +1,6 @@
 ## Kali Setup
 
-#### (becuase I always forget the partioning part)
+#### (because I always forget the partioning part)
 
   - Select "Manual" and click Continue
   - Select the drive you configured
