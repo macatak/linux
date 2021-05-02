@@ -26,31 +26,32 @@ Partitions
 
 ## Post Install Steps =====
 
-==== Update/Upgrade ====
+==== Update/Upgrade ====  
 <code>
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove
-</code>
+</code>  
 
-==== DNS Utilities ====
+==== DNS Utilities ====  
 <code>
 sudo apt install dnsutils 
-</code>
+</code>  
 
-==== Chromium ====
+==== Chromium ====  
 <code>
 sudo apt install chromium
-</code>
+</code>  
 
-==== Firewall ====
-<code>sudo apt install ufw
+==== Firewall ====  
+
+<code>sudo apt install ufw  
 sudo ufw enable
-</code>
-  * Check Status<code>
-sudo ufw status verbose
-</code>
-  * Add an IP<code>
-sudo ufw allow from <ip Address>
-</code>
+</code>  
+
+  * Check Status  
+  <code>sudo ufw status verbose</code>  
+  
+  * Add an IP  
+  <code>sudo ufw allow from <ip Address></code>  
 
 ==== VS Code  ====
 Install snapd
