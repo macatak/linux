@@ -51,3 +51,13 @@ sudo ufw status verbose
   * Add an IP<code>
 sudo ufw allow from <ip Address>
 </code>
+
+==== VS Code  ====
+Install snapd
+<code>sudo apt install snapd</code>
+
+Start the service
+<code>sudo systemctl start snapd.service</code>
+
+Install VS Code
+<code>sudo snap install code --classic</code>
