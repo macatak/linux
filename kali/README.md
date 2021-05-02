@@ -53,7 +53,8 @@ sudo ufw enable
   * Add an IP  
   <code>sudo ufw allow from <ip Address></code>  
 
-==== VS Code  ====
+==== VS Code  ====  
+
 Install snapd
 <code>sudo apt install snapd</code>
 
