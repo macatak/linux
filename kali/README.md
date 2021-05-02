@@ -60,4 +60,7 @@ Start the service
 <code>sudo systemctl start snapd.service</code>
 
 Install VS Code
-<code>sudo snap install code --classic</code>
+<code>sudo apt install curl gpg software-properties-common apt-transport-https</code>
+<code>curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</code>
+<code>echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</code>
+<code>sudo apt update && sudo apt install code</code>
