@@ -28,10 +28,7 @@ Partitions
 
 ==== Update/Upgrade ====
 <code>
-sudo apt update
-sudo apt upgrade
-sudo apt dist-upgrade
-sudo apt autoremove
+sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove
 </code>
 
 ==== DNS Utilities ====
