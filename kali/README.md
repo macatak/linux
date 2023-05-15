@@ -33,17 +33,17 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -
 
 ==== DNS Utilities ====  
 <code>
-sudo apt install dnsutils 
+sudo apt install -y dnsutils 
 </code>  
 
 ==== Chromium ====  
 <code>
-sudo apt install chromium
+sudo apt install -y chromium
 </code>  
 
 ==== Firewall ====  
 
-<code>sudo apt install ufw  
+<code>sudo apt install -y ufw  
 sudo ufw enable
 </code>  
 
@@ -56,13 +56,13 @@ sudo ufw enable
 ==== VS Code  ====  
 
 Install snapd
-<code>sudo apt install snapd</code>
+<code>sudo apt install -y snapd</code>
 
 Start the service
 <code>sudo systemctl start snapd.service</code>
 
 Install VS Code
-<code>sudo apt install curl gpg software-properties-common apt-transport-https</code>  
+<code>sudo apt install -y curl gpg software-properties-common apt-transport-https</code>  
 <code>curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</code>  
 <code>echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</code>  
 <code>sudo apt update && sudo apt install code</code>  
