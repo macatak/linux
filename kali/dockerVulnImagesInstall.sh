@@ -9,8 +9,8 @@
 # access - http://localhost:3000
 
 # latest 
-# docker pull bkimminich/juice-shop
-docker pull bkimminich/juice-shop:v14.5.1
+docker pull bkimminich/juice-shop
+# docker pull bkimminich/juice-shop:v14.5.1
 
 # DVWA 
 # https://hub.docker.com/r/vulnerables/web-dvwa
@@ -31,11 +31,3 @@ docker pull vulnerables/web-dvwa:latest
 # latest
 docker pull securecodebox/bodgeit
 # docker pull securecodebox/bodgeit:master
-
-# ??? unknown database error - 2021 bug (https://github.com/raesene/bWAPP/issues/14) ???
-# latest container is 7 years old
-# bWapp
-# https://github.com/raesene/bWAPP
-# run cmd
-# docker run -d -p 80:80 raesene/bwapp
-# access - http://localhost
