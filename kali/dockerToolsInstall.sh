@@ -1,3 +1,6 @@
+#!/usr/bin/bash
+
+# OWASP tools
 
 # zap
 # https://www.zaproxy.org/docs/docker/
