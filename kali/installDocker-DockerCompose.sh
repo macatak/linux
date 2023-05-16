@@ -2,8 +2,8 @@ sudo apt update && sudo apt -y full-upgrade
 # pre reqs
 sudo apt install -y curl gnupg2 apt-transport-https software-properties-common ca-certificates
 
+# reboot may be needed
 # reboot
-reboot
 
 # import key
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-archive-keyring.gpg
