@@ -66,3 +66,23 @@ Install VS Code
 <code>curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</code>  
 <code>echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</code>  
 <code>sudo apt update && sudo apt install code</code>  
+  
+==== Sublime ====
+  
+  
+<code>wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt install -y apt-transport-https
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt update
+sudo apt install -y sublime-text</code>
+  
+ ==== Feroxbuster ====
+  
+ Like Gobuster but more powerful  
+  <code>sudo apt install feroxbuster</code>
+  Example
+  <code>feroxbuster -u http://10.10.82.232</code>
+  Info
+  https://github.com/epi052/feroxbuster
+  https://epi052.github.io/feroxbuster-docs/docs/examples/detect-directory-listing/
+  
