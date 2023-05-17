@@ -55,13 +55,14 @@ sudo ufw enable
 
 ==== VS Code  ====  
 
-Install snapd
+Install snapd  
 <code>sudo apt install -y snapd</code>
 
-Start the service
+Start the service  
 <code>sudo systemctl start snapd.service</code>
 
 Install VS Code  
+  
 <code>sudo apt install -y curl gpg software-properties-common apt-transport-https</code>  
 <code>curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</code>  
 <code>echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list</code>  
