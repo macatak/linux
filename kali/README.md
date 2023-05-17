@@ -79,7 +79,7 @@ sudo apt install -y sublime-text</code>
  ==== Feroxbuster ====
   
  Like Gobuster but more powerful  
-  <code>sudo apt install feroxbuster</code>
+  <code>sudo apt install feroxbuster</code>  
   Example  
   <code>feroxbuster -u http://10.10.82.232</code>  
   
