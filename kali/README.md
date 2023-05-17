@@ -24,7 +24,7 @@ Partitions
   * / (root) – OS partition - whatever is left
 
 
-## Post Install Steps =====
+## Post Install Steps ##
 
 ==== Update/Upgrade ====  
 <code>
