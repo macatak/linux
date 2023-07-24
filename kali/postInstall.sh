@@ -3,7 +3,8 @@
 sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove
 
 # installs
-sudo apt install -y dnsutils chromium ufw snapd curl gpg software-properties-common apt-transport-https feroxbuster
+sudo apt install -y dnsutils chromium ufw snapd curl gpg software-properties-common apt-transport-https feroxbuster gobuster rlwrap eyewitness bloodhound zaproxy chromium
+
 
 sudo systemctl start snapd.service
 
