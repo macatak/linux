@@ -12,12 +12,13 @@ sudo systemctl start snapd.service
 curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add 
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
 # sublime
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list\n
+# seems to be broken
+# wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+# echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list\n
 
 
 # install added repos
-sudo apt update && sudo apt install -y code sublime-text
+sudo apt update && sudo apt install -y code # sublime-text
 
 
 sudo ufw enable
