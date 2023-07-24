@@ -5,7 +5,6 @@ sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -
 # installs
 sudo apt install -y dnsutils chromium ufw snapd curl gpg software-properties-common apt-transport-https feroxbuster gobuster rlwrap eyewitness bloodhound zaproxy chromium
 
-
 sudo systemctl start snapd.service
 
 # add repos for VSCode and Sublime
