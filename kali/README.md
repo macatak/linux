@@ -2,6 +2,8 @@
 
 #### (because I always forget the partioning part)
 
+Debian (10x as of this edit) is the right distro
+
   - Select "Manual" and click Continue
   - Select the drive you configured
   - Click Yes on Partition disks
