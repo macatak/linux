@@ -10,7 +10,7 @@
 
 # target folder
 # !!!!! needs to be changed for any other folder
-htb_dir="/home/bikeride/htb"
+htb_dir="/home/bikeride/machines"
 # check and make sure that folder exists
 if [[ ! -d $htb_dir ]]
   then
